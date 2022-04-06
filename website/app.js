@@ -7,7 +7,7 @@ let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
 
 async function fetchWeather(zip_code) {
   const url = baseUrl.replace("{zip_code}", zip_code);
-  const response = await fetch(url);
+  const response = await fetch(url).catch(console.error);;
   const data = await response.json().catch(console.error);
   return data;
 }
