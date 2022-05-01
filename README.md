@@ -1,5 +1,13 @@
 # Weather Journal
 
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/8HMhI58.png)
+
+![App Screenshot 1](https://i.imgur.com/XPkFnkP.png)
+
+![App Screenshot 1](https://i.imgur.com/XixNfX8.png)
+
 ## Run Locally
 
 Clone the project
@@ -49,12 +57,6 @@ To run this project, you will need to add the following environment variables to
 ## Tech Stack
 
 **Client:** HTML/SCSS/Javascript
-
-## Screenshots
-
-![App Screenshot](https://i.imgur.com/8HMhI58.png)
-
-![App Screenshot](https://i.imgur.com/XPkFnkP.png)
 
 ## Authors
 
