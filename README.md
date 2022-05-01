@@ -1,13 +1,5 @@
 # Weather Journal
 
-## Screenshots
-
-![App Screenshot](https://i.imgur.com/8HMhI58.png)
-
-![App Screenshot 1](https://i.imgur.com/XPkFnkP.png)
-
-![App Screenshot 1](https://i.imgur.com/XixNfX8.png)
-
 ## Run Locally
 
 Clone the project
@@ -33,6 +25,12 @@ Create .env with PORT variable start the server
 ```bash
   npm run start
 ```
+
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/8HMhI58.png)
+
+![App Screenshot 1](https://i.imgur.com/XPkFnkP.png)
 
 ## Environment Variables
 
@@ -61,3 +59,7 @@ To run this project, you will need to add the following environment variables to
 ## Authors
 
 - [@dgcp3](https://www.github.com/dgcp3)
+
+## 🚀 About Me
+
+Student at masterschool
