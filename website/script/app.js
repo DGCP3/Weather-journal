@@ -32,7 +32,7 @@ document.getElementById("generate").addEventListener("click", async (e) => {
     },
     mode: "cors",
     body: JSON.stringify({
-      date: name,
+      name,
       country,
       main,
       temp,
