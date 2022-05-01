@@ -1,0 +1,19 @@
+#snow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: clamp(5rem, 8rem, 10rem);
+  z-index: -999;
+}
+#pattern {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  z-index: -999;
+  display: none;
+  @media screen and (min-width: 600px) {
+    width: 400px;
+    display: initial;
+  }
+}

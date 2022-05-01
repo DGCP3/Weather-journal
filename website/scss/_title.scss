@@ -1,0 +1,18 @@
+#title {
+  transition: all 0.4s ease;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  margin-inline: 10%;
+  padding-top: 5vh;
+  color: white;
+
+  span {
+    color: var(--primary);
+    @media (max-width: 500px) {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    text-align: center;
+  }
+}

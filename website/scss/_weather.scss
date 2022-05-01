@@ -1,0 +1,29 @@
+.weather {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  transition: all 0.4ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  width: 100%;
+  &:not(:first-of-type) {
+    margin-top: 10px;
+  }
+  span {
+    display: block;
+    font-weight: bold;
+  }
+  summary {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  img {
+    max-width: 80px;
+    background: radial-gradient(
+      circle,
+      rgb(187, 188, 192) 0%,
+      rgba(255, 255, 255, 1) 70%
+    );
+  }
+}
