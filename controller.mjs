@@ -1,4 +1,4 @@
-import { projectData } from "./server.js";
+import { projectData } from "./server.mjs";
 
 export function saveData(req, res) {
   projectData.data.push({ ...req.body });

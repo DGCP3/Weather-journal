@@ -1,8 +1,9 @@
-import express from "express";
 import cors from "cors";
 import "dotenv/config";
+import express from "express";
 
-import { getData, saveData } from "./controller.js";
+import { getData, saveData } from "./controller.mjs";
+
 const app = express();
 export let projectData = { data: [] };
 
